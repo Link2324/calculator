@@ -1,0 +1,24 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; /* Ensure body covers the full viewport height */
+}
+
+.calculator {
+    display: flex; 
+    flex-shrink: 0;
+    width: 72vmin;
+    height: 96vmin;
+    border-radius: 20px;
+    background-color: hsl(206, 38%, 59%);
+    
+}
+
+
