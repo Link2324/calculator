@@ -13,12 +13,20 @@ body {
 
 .calculator {
     display: flex; 
-    flex-shrink: 0;
     width: 72vmin;
     height: 96vmin;
     border-radius: 20px;
     background-color: hsl(206, 38%, 59%);
-    
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: stretch;
+    padding: 4% 4%;
 }
 
+.display {
+    background-color: rgb(246, 255, 252);
+    border-radius: 10px;
+    align-items: stretch;
+    height: 24%;
+}
 
