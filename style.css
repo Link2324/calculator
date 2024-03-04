@@ -15,18 +15,36 @@ body {
     display: flex; 
     width: 72vmin;
     height: 96vmin;
-    border-radius: 20px;
-    background-color: hsl(206, 38%, 59%);
+    border-radius: 4vmin;
+    background-color: hsl(205, 24%, 36%);
     flex-direction: column;
     justify-content: flex-start;
     align-items: stretch;
-    padding: 4% 4%;
 }
 
 .display {
-    background-color: rgb(246, 255, 252);
-    border-radius: 10px;
+    background-color: #d5dcda;
+    border-radius: 2vmin;
     align-items: stretch;
     height: 24%;
+    margin: 12% 8% 4% 8%;
 }
 
+.button-container {
+    display: flex;
+    height: 48%;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: auto 8% 12%;
+    gap: 5%;
+}
+
+.button-container button {
+    font-size: 24px;
+    font-weight: 500;
+    background-color: #f3f3f3;
+    border: none;
+    border-radius: 12%;
+    width: 20%;
+    height: 20%;
+}
