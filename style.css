@@ -12,13 +12,16 @@ body {
 }
 
 .calculator {
-    display: flex; 
+    display: flex;
     width: 72vmin;
     height: 96vmin;
     border-radius: 4vmin;
     background-color: hsl(205, 24%, 36%);
+
+    /* Properties for children */
     flex-direction: column;
-    justify-content: flex-start;
+    padding: 8vmin 4vmin;
+    justify-content: space-between;
     align-items: stretch;
 }
 
@@ -26,27 +29,32 @@ body {
     background-color: #d5dcda;
     border-radius: 2vmin;
     align-items: stretch;
-    height: 24%;
-    margin: 12% 8% 4% 8%;
+    height: 32%;
 }
 
 .button-container {
     display: flex;
-    height: 48%;
-    flex-wrap: wrap;
+    flex-direction: column;
+    height: 60%;
     justify-content: center;
-    margin: auto 8% 12%;
-    gap: 5%;
+    gap: 1vmin;
 }
 
-.button-container button {
+.button-container div {
+    display: flex;
+    height: 20%;
+    flex: 1;
+    justify-content: stretch;
+    gap: 1vmin;
+}
+
+.button-container>div>button {
     font-size: 24px;
     font-weight: 500;
-    background-color: #f3f3f3;
+    background-color: #ffffff;
     border: none;
-    border-radius: 12%;
-    width: 20%;
-    height: 20%;
+    flex: 1;
+    border-radius: 1vmin;
 }
 
 .button-container button:hover {
