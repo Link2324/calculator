@@ -48,3 +48,7 @@ body {
     width: 20%;
     height: 20%;
 }
+
+.button-container button:hover {
+    background-color: lightblue;
+}
