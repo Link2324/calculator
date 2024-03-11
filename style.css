@@ -64,3 +64,10 @@ body {
 p {
     font-size: 6vmin;
 }
+
+#plus,
+#minus,
+#divide,
+#multiply {
+    background-color: rgb(255, 180, 180);
+}
