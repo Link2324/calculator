@@ -88,7 +88,12 @@ buttons.addEventListener('click', (e) => {
             break;
 
         case '.':
-            label += '.';
+            if (operator === '' && !label.includes('.')) {
+                label += '.';
+            }
+            if (operator !== '' && !label.split(operator)[1].includes('.')) {
+                label += '.';
+            }
             break;
 
         case 'clear':
