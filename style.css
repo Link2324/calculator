@@ -71,3 +71,11 @@ p {
 #multiply {
     background-color: rgb(255, 180, 180);
 }
+
+#plus:hover,
+#minus:hover,
+#divide:hover,
+#multiply:hover {
+    background-color: rgb(242, 85, 76);
+}
+
