@@ -60,3 +60,7 @@ body {
 .button-container button:hover {
     background-color: lightblue;
 }
+
+p {
+    font-size: 6vmin;
+}
